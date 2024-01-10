@@ -1,3 +1,10 @@
-# threejs-utils
+# R3F Dissolve Effect
 
-In this repo I keep all those custom elements such as materials, shaders or other that I find on the web and that I think are interesting. In particular I test them and keep them here for reuse in real projects.
+## Inspirated by this tweet
+
+https://twitter.com/0xca0a/status/1678071371274809346?s=20
+
+## I followed the tutorial by WawaSensei
+
+https://www.wawasensei.dev/
+https://youtu.be/ma9t7HAOZRg

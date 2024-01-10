@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Leva, useControls } from 'leva';
 import { Perf } from 'r3f-perf';
-import { Loader } from '@react-three/drei';
+import { Loader, ScrollControls } from '@react-three/drei';
 import Experience from './compontents/Experience';
 
 function App() {
@@ -16,14 +16,16 @@ function App() {
   return (
     <>
       <Leva collapsed />
-      <Canvas shadows camera={{ position: [3, 3, 3], fov: 30 }}>
+      <Canvas shadows camera={{ position: [0, 0, 5], fov: 30 }}>
         <color attach="background" args={['#ececec']} />
         {perfVisible && <Perf position="top-left" />}
-		<Suspense fallback={null}>
-		  <Experience />
-		</Suspense>
+        <Suspense fallback={null}>
+          <ScrollControls pages={4}>
+            <Experience />
+          </ScrollControls>
+        </Suspense>
       </Canvas>
-	  <Loader />
+      <Loader />
     </>
   );
 }

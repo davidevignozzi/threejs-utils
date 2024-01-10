@@ -1,9 +1,7 @@
-# Confetti Component
+# r3f-explosion-effect
 
-## CONFETTI COMPONENT BY ANDERSON MANCINI AND ROMAIN HERAULT
+## Ref:
 
-Anderson Mancini: https://github.com/ektogamat
-Romain Herault: https://github.com/Romaixn
-
-Based on: https://github.com/JamesChan21/threejs-confetti
-Based on: https://github.com/daniel-lundin/dom-confetti
+Tutorial: https://youtu.be/If8Cl2NSNZU
+Heart by Quaternius (https://poly.pizza/m/1yCRUwFnwX)
+Banana by Poly by Google [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/ahOO6wz8sV0)

@@ -1,28 +1,14 @@
-import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { Leva, useControls } from 'leva';
-import { Perf } from 'r3f-perf';
-import { Loader, ScrollControls } from '@react-three/drei';
-import Experience from './compontents/Experience';
+import { Experience } from './components/Experience';
+import { Suspense } from 'react';
+import { Loader } from '@react-three/drei';
 
 function App() {
-  /**
-   * Tweek it in leva to make Perf Visible
-   */
-  const { perfVisible } = useControls({
-    perfVisible: false
-  });
-
   return (
     <>
-      <Leva collapsed />
-      <Canvas shadows camera={{ position: [0, 0, 5], fov: 30 }}>
-        <color attach="background" args={['#ececec']} />
-        {perfVisible && <Perf position="top-left" />}
+      <Canvas shadows camera={{ position: [0, 0, 10], fov: 30 }}>
         <Suspense fallback={null}>
-          <ScrollControls pages={4}>
-            <Experience />
-          </ScrollControls>
+          <Experience />
         </Suspense>
       </Canvas>
       <Loader />

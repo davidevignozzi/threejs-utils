@@ -1,7 +1,4 @@
-# r3f-explosion-effect
+# R3F Mesh Portal material
 
-## Ref:
-
-Tutorial: https://youtu.be/If8Cl2NSNZU
-Heart by Quaternius (https://poly.pizza/m/1yCRUwFnwX)
-Banana by Poly by Google [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/ahOO6wz8sV0)
+Ref:
+https://youtu.be/2W_VR92Pqgs

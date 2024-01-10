@@ -1,23 +1,29 @@
-import { Canvas } from '@react-three/fiber';
-import { Experience } from './components/Experience';
-import { Bloom, EffectComposer } from '@react-three/postprocessing';
 import { Suspense } from 'react';
+import { Canvas } from '@react-three/fiber';
+import { Leva, useControls } from 'leva';
+import { Perf } from 'r3f-perf';
 import { Loader } from '@react-three/drei';
+import Experience from './compontents/Experience';
 
 function App() {
+  /**
+   * Tweek it in leva to make Perf Visible
+   */
+  const { perfVisible } = useControls({
+    perfVisible: false
+  });
+
   return (
     <>
-      <Canvas shadows camera={{ position: [3, 3, 5], fov: 42 }}>
+      <Leva collapsed />
+      <Canvas shadows camera={{ position: [3, 3, 3], fov: 30 }}>
         <color attach="background" args={['#ececec']} />
-        <Suspense fallback={null}>
-          <Experience />
-
-          <EffectComposer>
-            <Bloom luminanceThreshold={1} intensity={1.25} mipmapBlur />
-          </EffectComposer>
-        </Suspense>
+        {perfVisible && <Perf position="top-left" />}
+		<Suspense fallback={null}>
+		  <Experience />
+		</Suspense>
       </Canvas>
-      <Loader />
+	  <Loader />
     </>
   );
 }

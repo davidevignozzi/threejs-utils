@@ -1,5 +1,5 @@
 {
-  "name": "r3f-dissolve_effect",
+  "name": "confetti-component",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,14 +12,11 @@
   "dependencies": {
     "@react-three/drei": "^9.93.0",
     "@react-three/fiber": "^8.15.13",
-    "@react-three/postprocessing": "^2.15.11",
-    "gl-noise": "^1.6.1",
     "leva": "^0.9.35",
-    "maath": "^0.10.7",
+    "r3f-perf": "^7.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "three": "^0.160.0",
-    "three-custom-shader-material": "^5.4.0"
+    "three": "^0.160.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.47",

@@ -1,10 +1,9 @@
-# R3F Dissolve Effect
+# Confetti Component
 
-## Inspirated by this tweet
+## CONFETTI COMPONENT BY ANDERSON MANCINI AND ROMAIN HERAULT
 
-https://twitter.com/0xca0a/status/1678071371274809346?s=20
+Anderson Mancini: https://github.com/ektogamat
+Romain Herault: https://github.com/Romaixn
 
-## I followed the tutorial by WawaSensei
-
-https://www.wawasensei.dev/
-https://youtu.be/ma9t7HAOZRg
+Based on: https://github.com/JamesChan21/threejs-confetti
+Based on: https://github.com/daniel-lundin/dom-confetti

@@ -1,3 +1,9 @@
-# threejs-utils
+# Distortion Effect
 
-In this repo I keep all those custom elements such as materials, shaders or other that I find on the web (or I create) and that I think are interesting. In particular I test them and keep them here for reuse in real projects.
+## 🚨 Credit
+
+- [@olivierlarose](https://github.com/olivierlarose)
+
+## 🚨 Tutorial
+
+https://www.youtube.com/watch?v=9FDt6tuFP-k&t=18s
